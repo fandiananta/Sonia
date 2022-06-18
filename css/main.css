@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto&display=swap');
+body {
+    background-image: url(../assets/image/25+\ Background\ Kertas\ Kusut\,\ Kuno\,\ Klasik\,Lecek\,\ Sobek\ HD.png);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    background-image: url(../assets/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+.jumbotron h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: yellow;
+    text-shadow: 0 0 60px white, 0 0 30px white;
+}
+
+.carousel {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+    border: 4px solid white;
+}
+
+.navbar ul li {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu .navbar {
+    background-image: url(../assets/image/bg.jpg);
+    border: none;
+    width: 90%;
+    background-size: cover;
+    background-position-y: 700px;
+    margin: auto;
+}
+
+.menu .navbar ul li a {
+    background-color: #F78602;
+    /* padding: 10px 12px; */
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    padding: 20px;
+    border-radius: 100%;
+    border: 4px solid #F78602;
+    font-size: 10px;
+}
+
+.text {
+    width: 90%;
+    background-color: yellow;
+    margin: auto;
+}
+
+.text marquee {
+    width: 90%;
+    margin: auto;
+    font-size: 17px;
+}
+
+.produk {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgb(250, 250, 250); */
+    margin: 50px auto;
+}
+
+#produk {
+    font-size: 30px;
+}
+
+.produk .card {
+    background-color: transparent;
+    border: none;
+}
+
+.img-thumbnail {
+    position: relative;
+}
+
+.add {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    font-size: 35px;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .3s;
+    background-color: rgba(247, 134, 2, 0.7);
+}
+
+.add:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+
+.produk .card h5 {
+    margin-top: -10px;
+}
+
+.badge {
+    background-color: white;
+    color: rgb(247, 134, 2);
+}
+
+.list-group-item {
+    background-color: rgb(247, 134, 2);
+    border: 2px solid white;
+}
+
+.fw-bold {
+    color: white;
+}
+
+.jumbotron img {
+    position: relative;
+}
+
+.jumbotron span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.jumbotron span p {}
+
+@media screen and (max-width:760px) {
+    .carousel {
+        margin-top: -70px;
+    }
+    .menu .navbar ul li a {
+        background-color: #F78602;
+        color: white;
+        font-weight: bold;
+    }
+    .navbar ul li {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    #hamburger {
+        background-color: rgba(255, 255, 255, 0.6);
+        border: none;
+    }
+    .navbar-toggler {
+        border: white;
+    }
+    .card img {
+        height: 300px;
+    }
+}
